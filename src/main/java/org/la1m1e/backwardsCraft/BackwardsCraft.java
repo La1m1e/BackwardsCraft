@@ -55,8 +55,7 @@ public class BackwardsCraft extends JavaPlugin implements Listener {
         }
 
         for (Entity entity : event.getBlock().getWorld().getEntities()) {
-            if (entity instanceof EnderDragon) {
-                EnderDragon dragon = (EnderDragon) entity;
+            if (entity instanceof EnderDragon dragon) {
                 dragon.setHealth(Math.min(dragon.getHealth() + 55.0, dragon.getMaxHealth()));
             }
         }
