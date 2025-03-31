@@ -11,7 +11,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.EnumSet;
-import java.util.Random;
 import java.util.Set;
 
 public class PiglinReverter implements Listener {
