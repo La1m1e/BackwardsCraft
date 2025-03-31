@@ -16,6 +16,7 @@ public class RecipeAdder {
         Bukkit.addRecipe(new ShapelessRecipe(new NamespacedKey(plugin, "UncraftPlanks"), new ItemStack(Material.OAK_LOG,1)).addIngredient(ItemStack.of(Material.OAK_PLANKS,4)));
         Bukkit.addRecipe(new ShapelessRecipe(new NamespacedKey(plugin, "UncraftFlintSt"), new ItemStack(Material.IRON_INGOT,1)).addIngredient(ItemStack.of(Material.FLINT_AND_STEEL,1)));
         Bukkit.addRecipe(new ShapelessRecipe(new NamespacedKey(plugin, "UncraftPickaxe"), new ItemStack(Material.DIAMOND,3)).addIngredient(ItemStack.of(Material.DIAMOND_PICKAXE)));
-        Bukkit.addRecipe(new ShapelessRecipe(new NamespacedKey(plugin, "UncraftPickaxe"), new ItemStack(Material.IRON_INGOT,3)).addIngredient(ItemStack.of(Material.IRON_AXE)));
+        Bukkit.addRecipe(new ShapelessRecipe(new NamespacedKey(plugin, "UncraftAxe"), new ItemStack(Material.IRON_INGOT,3)).addIngredient(ItemStack.of(Material.IRON_AXE)));
+        Bukkit.addRecipe(new ShapelessRecipe(new NamespacedKey(plugin, "UncraftBucket"), new ItemStack(Material.IRON_INGOT,3)).addIngredient(ItemStack.of(Material.BUCKET)));
     }
 }
