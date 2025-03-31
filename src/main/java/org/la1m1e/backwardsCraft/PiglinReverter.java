@@ -16,9 +16,8 @@ import java.util.Set;
 
 public class PiglinReverter implements Listener {
 
-    private final BackwardsCraft plugin;  // Replace YourPlugin with your actual plugin class name
+    private final BackwardsCraft plugin;
 
-    // Constructor to accept the plugin instance
     public PiglinReverter(BackwardsCraft plugin) {
         this.plugin = plugin;  // Store the plugin instance
     }
