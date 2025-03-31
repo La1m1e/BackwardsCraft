@@ -91,4 +91,13 @@ public class ClickListeners implements Listener {
 
         }
     }
+    @EventHandler
+    public void BucketObsidian(PlayerInteractEvent event){
+        if (event.getClickedBlock() == null) return;
+        if (Objects.requireNonNull(event.getClickedBlock()).getType() == Material.OBSIDIAN && event.getPlayer().getItemInHand().equals(ItemStack.of(Material.BUCKET))){
+            event.getClickedBlock().setType(Material.AIR);
+            event.getPlayer().getItemInHand().setType(Material.LAVA_BUCKET);
+        }
+
+    }
 }
