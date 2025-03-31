@@ -1,0 +1,4 @@
+name: BackwardsCraft
+version: '1.0-SNAPSHOT'
+main: org.la1m1e.backwardsCraft.BackwardsCraft
+api-version: '1.21'
